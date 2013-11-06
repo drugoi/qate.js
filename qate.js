@@ -99,6 +99,9 @@ $(document).ready(function() {
 		alert("test!");
 	}
 
+	$('#test').on('click', function(){
+		$('#input-text').val('')
+	});
 
 	$("#input-text").keyup(function(event){
 		if(event.keyCode == 13){
